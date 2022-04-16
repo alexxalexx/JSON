@@ -26,5 +26,12 @@
         "description": "Тёмные, светлые, красные",
         "img": "../images/succulents.jpg",
         "price": "5399,99"
+    },
+    {
+        "id": 5,
+        "title": "Тест",
+        "description": "Тёмные, светлые, красные",
+        "img": "../images/succulents.jpg",
+        "price": "5399,99"
     }
 ]
