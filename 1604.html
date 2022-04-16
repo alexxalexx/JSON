@@ -5,47 +5,102 @@
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>JSON</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
-    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;500;600;700&display=swap" rel="stylesheet">
     <style>
-        .container {
+        .header
+        {
+            margin-top: 70px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 40px;
+            margin-left: 70px;
+        }
+
+        .container 
+        {
             display: flex;
             width: 1200px;
             margin: 0 auto;
-        }
-        .item {
-            border: 5px solid rgb(103, 159, 133);
-            border-radius: 4px;
-            padding: 10px;
-            width: 200px;
-            margin: 10px;
+            margin-top: 50px;
+            margin-left: 50px;
         }
 
-        .item img {
+        .item 
+        {
+            border: 5px solid rgb(15, 195, 255);
+            background-color: rgb(15, 195, 255);
+            border-radius: 20px;
+            padding: 10px;
+            width: 200px;
+            height: 400px;
+            margin: 20px;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        .item img 
+        {
             width: 100%;
             height: 150px;
             object-fit: cover;
+            border-radius: 10px;
         }
 
-        .item h1 {
+        .item h1 
+        {
             font-size: 20px;
+            font-family: 'Montserrat', sans-serif;
+            color: rgb(30, 30, 30);
         }
 
-        .price {
-            background: gray;
-            font-style: italic;
+        .goods_description
+        {
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+            font-size: 15px;   
+            color: white;     
+        }
+
+        .price 
+        {
+            background: rgb(255, 255, 255);
+            color: rgb(15, 195, 255);
+            padding: 7px;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+        }
+        .btn
+        {
+            align-items: flex-end;
+            width: 200px;
+            height: 40px;
+            border: 1px solid white;
+            border-radius: 10px;
+            background-color: white;
+            color: rgb(15, 195, 255);
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 700;
+            font-size: 18px;
         }
     </style>
 </head>
 <body>
+    <p class="header">GoFood Discounts</p>
     <div class="container"></div>
     <template id="item-card">
         <div class="item">
             <img src="">
             <h1></h1>
-            <p></p>
+            <p class="goods_description"></p>
             <span class="price"></span>
+            <div class="btn_container">
+                <button class="btn">Купить</button>
+            </div>
         </div>
     </template>  
-    <script src='1604.js'></script>
+    <script src='./1604.js'></script>
 </body>
-</html>
+</html>  
