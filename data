@@ -1,0 +1,30 @@
+[
+    {
+        "id": 1,
+        "title": "Ананас Обыкновенный",
+        "description": "На вкус обалденный",
+        "img": "../images/ananas.jpg",
+        "price": 39,99
+    },
+    {
+        "id": 2,
+        "title": "Утка Зелёная",
+        "description": "В гнезде рождённая",
+        "img": "../images/duck.jpg",
+        "price": 299,99
+    },
+    {
+        "id": 3,
+        "title": "Гусь Смешной",
+        "description": "Очень большой",
+        "img": "../images/goose.webp",
+        "price": 999,99
+    },
+    {
+        "id": 4,
+        "title": "Суккуленты разные",
+        "description": "Тёмные, светлые, красные",
+        "img": "../images/succulents.jpg",
+        "price": 5399,99
+    }
+]
