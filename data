@@ -16,7 +16,7 @@
     {
         "id": 3,
         "title": "Гусь Смешной",
-        "description": "Очень большой",
+        "description": "Правда очень большой",
         "img": "../images/goose.webp",
         "price": 999,99
     },
